@@ -1,0 +1,125 @@
+.
+├── AppConfig.xml
+├── bin
+│   ├── AppConfig.xml
+│   ├── cn
+│   │   └── edu
+│   │       └── nsu
+│   │           └── nearchat
+│   │               ├── check
+│   │               │   └── RuntimeCheck.class
+│   │               ├── dao
+│   │               │   ├── MsgModel.class
+│   │               │   ├── UserDao.class
+│   │               │   └── UserModel.class
+│   │               ├── db
+│   │               │   ├── DBImage.class
+│   │               │   ├── DBUtil.class
+│   │               │   └── LoadDBConfig.class
+│   │               ├── gui
+│   │               │   ├── FrameSetting.class
+│   │               │   ├── LinkmanFrame$1$1.class
+│   │               │   ├── LinkmanFrame$1.class
+│   │               │   ├── LinkmanFrame$2.class
+│   │               │   ├── LinkmanFrame$ButtonAction$1.class
+│   │               │   ├── LinkmanFrame$ButtonAction$2$1.class
+│   │               │   ├── LinkmanFrame$ButtonAction$2.class
+│   │               │   ├── LinkmanFrame$ButtonAction.class
+│   │               │   ├── LinkmanFrame.class
+│   │               │   ├── LinkmanFrame$NodeRenderer.class
+│   │               │   ├── LoginFrame$1.class
+│   │               │   ├── LoginFrame$2.class
+│   │               │   ├── LoginFrame.class
+│   │               │   ├── SendMsgFrame$1.class
+│   │               │   ├── SendMsgFrame$ButtonAction.class
+│   │               │   ├── SendMsgFrame.class
+│   │               │   └── Test.class
+│   │               ├── helper
+│   │               │   ├── KeepSession.class
+│   │               │   ├── LogHelper.class
+│   │               │   ├── NetHelper.class
+│   │               │   ├── StringHelper.class
+│   │               │   └── XmlHelper.class
+│   │               ├── libs
+│   │               │   ├── dom4j-1.6.1.jar
+│   │               │   └── mysql-connector-java-5.1.7.jar
+│   │               ├── main
+│   │               │   ├── NearChat$1.class
+│   │               │   └── NearChat.class
+│   │               ├── net
+│   │               │   ├── FileReceiver.class
+│   │               │   ├── FileSender.class
+│   │               │   ├── NetConfig.class
+│   │               │   ├── Server.class
+│   │               │   ├── TextClient.class
+│   │               │   ├── TextServer.class
+│   │               │   ├── UDPClient.class
+│   │               │   └── UDPServer.class
+│   │               ├── resource
+│   │               │   └── Res.class
+│   │               ├── safe
+│   │               │   ├── Cryptology.class
+│   │               │   └── MD5.class
+│   │               └── testcase
+│   │                   ├── TestThreadLocal.class
+│   │                   ├── UniqueThreadIdGenerator$1.class
+│   │                   └── UniqueThreadIdGenerator.class
+│   └── GroupsInfo.xml
+├── dbconfig.properties
+├── GroupsInfo.xml
+├── lanchat.sql
+├── list
+├── readme.md
+└── src
+    ├── AppConfig.xml
+    ├── cn
+    │   └── edu
+    │       └── nsu
+    │           └── nearchat
+    │               ├── check
+    │               │   └── RuntimeCheck.java
+    │               ├── dao
+    │               │   ├── MsgModel.java
+    │               │   ├── UserDao.java
+    │               │   └── UserModel.java
+    │               ├── db
+    │               │   ├── DBImage.java
+    │               │   ├── DBUtil.java
+    │               │   └── LoadDBConfig.java
+    │               ├── gui
+    │               │   ├── FrameSetting.java
+    │               │   ├── LinkmanFrame.java
+    │               │   ├── LoginFrame.java
+    │               │   ├── SendMsgFrame.java
+    │               │   └── Test.java
+    │               ├── helper
+    │               │   ├── KeepSession.java
+    │               │   ├── LogHelper.java
+    │               │   ├── NetHelper.java
+    │               │   ├── StringHelper.java
+    │               │   └── XmlHelper.java
+    │               ├── libs
+    │               │   ├── dom4j-1.6.1.jar
+    │               │   └── mysql-connector-java-5.1.7.jar
+    │               ├── main
+    │               │   └── NearChat.java
+    │               ├── net
+    │               │   ├── FileReceiver.java
+    │               │   ├── FileSender.java
+    │               │   ├── NetConfig.java
+    │               │   ├── Server.java
+    │               │   ├── TextClient.java
+    │               │   ├── TextServer.java
+    │               │   ├── UDPClient.java
+    │               │   └── UDPServer.java
+    │               ├── resource
+    │               │   └── Res.java
+    │               ├── safe
+    │               │   ├── Cryptology.java
+    │               │   └── MD5.java
+    │               └── testcase
+    │                   ├── TestThreadLocal.java
+    │                   └── UniqueThreadIdGenerator.java
+    └── GroupsInfo.xml
+
+32 directories, 90 files
